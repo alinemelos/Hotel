@@ -1,0 +1,170 @@
+/**Estilos GErais **/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #fff url(../chalé/imagens/bg.png);
+    margin: 15px;
+}
+#principal{
+    background: #ede9cc url(../chalé/imagens/bg-container.png) top center repeat-y;
+    margin: 0 auto;
+    min-width: 740px;
+    max-width: 1180px;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+
+/* estilo do cabeçalho */
+header{
+    position: relative;
+    background: #dbcd87;
+    height: 15.4em;
+    min-height: 250px; /* altura mínima para que o bloco n reduza a ponto de complicar a visualizaçãp */
+}
+#logo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(../chalé/imagens/topo-imagem-principal.png) no-repeat;
+    width: 100%;
+    height: 250px;
+    z-index: 1;
+}
+.logo a{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    z-index: 3;
+    background: url(../chalé/imagens/logo.png) no-repeat;
+    width: 151px;
+    height: 66px;
+    text-indent: -9000px;
+}
+#menu{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url(../chalé/imagens/topo-imagem-lateral.png) no-repeat;
+    width: 450px;
+    height: 250px;
+    z-index: 2;
+}
+#texto-menu{
+    margin-left: 90px;
+    margin-right: 15px;
+    padding-top: 15PX;
+}
+#cidades{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-size: 0.7em;
+    border-bottom: 1px solid #b5ab56;
+    border-top: 1px solid #b5ab56;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#ul-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+#ul-menu li{
+    padding: 2px;
+    line-height: 2.1em;
+}
+#ul-menu li a{
+    color: #8b8448;
+}
+#reservar{
+    text-transform: uppercase;
+    background: #a29750;
+    padding: 3px 8px;
+    margin-left: 28px;
+    line-height: 2.1em;
+}
+#reservar a{
+    color: #fff5b0;
+}
+
+#list-menu ul{
+    float: left;
+}
+#list-menu {
+    margin-top: 10px;
+}
+#list-menu ul li a{
+    color: #6e672c;
+    text-transform: uppercase;
+    padding: 5px;
+    line-height: 30px;
+}
+#list-menu ul li a:hover{
+    background: #fdf6be;;
+}
+#list-menu ul li{
+    font-size: 0.8em;
+}
+
+/*estilo do conteúdo */
+#meio{
+    display: flex;
+    flex-direction: row;
+}
+.interior{
+    width: 90%;
+    margin: 0 auto;
+}
+#esquerda{
+    width: 50%;
+    background: url(../chalé/imagens/bg-area-principal.png) top left repeat-x;
+    padding: 15px;
+    display: flex;
+}
+#esquerda h2{
+    color: #7d7640;
+    font-size: 1.1em;
+    padding: 5px 0px;
+}
+#esquerda p{
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+#direita{
+    width: 50%;
+    background: url(../chalé/imagens/bg-area-lateral.png) top left repeat-x;
+    display: flex;
+    padding: 15px;
+}
+#links_direita h3{
+    color: #6e672c;
+    font-size: 1.1em;
+    padding: 5px 0;
+    background: url(../chalé/imagens/ornamento.png) no-repeat center right;
+
+}
+#links_direita a p{
+    color: black;
+    font-size: 0.8em
+}
+#links_direita li{
+    padding: 8px;
+    border-bottom: 1px solid #f3efcb;
+    height: 6em;
+}
+#links_direita li a img{
+    float: left;
+    margin-right:8px;
+}
+#links_direita li:hover{
+    background: #f6f3d6;
+    cursor: pointer;
+}
+
